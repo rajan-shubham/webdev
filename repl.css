@@ -1,0 +1,44 @@
+<div class = "circle"></div>
+<div class ="square"></div>
+<div class ="semicircle"></div>
+<div class ="circle"></div>
+<style>
+  body{
+    margin:0;
+    background : #191919;
+  }
+  .circle{
+    background:#4F77FF;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+  }
+  .square{
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 90px;
+    background:#F9E492 ;
+    clip-path: polygon(% 0, 0% 100%, 100% 100%);
+    overflow: hidden;
+  }
+  .semicircle{
+    background:#4F77FF;
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+  }
+ 
+  }
+ 
+</style>
