@@ -1,0 +1,39 @@
+<div class="circle"></div>
+<div class="triangle"></div>
+<style>
+  body {
+    margin: 0;
+    background: #191919;
+  }
+  .circle {
+    background: #f9e492;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+  }
+  .triangle {
+    position: absolute;
+    top: 234px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 150px;
+    background: #4f77ff;
+    clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+    overflow: hidden;
+  }
+  .triangle::after {
+    content: "";
+    background: #191919;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -109px);
+    border-radius: 100%;
+  }
+</style>
