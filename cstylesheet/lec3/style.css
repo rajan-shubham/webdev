@@ -3,9 +3,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     background-color: #ffefd5;
-    color: rgb(255, 100, 0)!important;
+    /* color: rgb(255, 100, 0)!important; */
+    color: rgb(0, 0, 0);
 }
 
 p {
+    /* color: rgba(0,0,0,0.5); */
+    /* color: hsl(240, 100%, 17%)  */
+    /* hsl(hue, saturation, lightness) */
     color: #333;
 }
+/* https://coolors.co/contrast-checker/333333-ffefd5 */
