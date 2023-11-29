@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    width: 100% or 100vw;
+} */
+
+body {
+    min-height: 100vh;
+}
+
+/* p {
+    font-size: 32px;
+    color: #9b3333;
+} */
+/* header {
+    width: 100%;
+} */
+
+h1 {
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+main {
+    /* width: 50vw or 50%;
+    background-color: skyblue; */
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    width: 40ch;
+}
