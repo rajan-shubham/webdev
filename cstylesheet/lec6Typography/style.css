@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*
+Typography is the way that text is arranged and presented.
+*/
+/* main {
+    background-color: gold;
+} */
+body {
+    padding: 10%;
+    font-size: 2rem;
+    /* font-family: sans-serif; */
+    /* font-family: sans-serif,monospace,cursive,fantasy */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+/* input, button {
+    font:inherit;
+} */
+
+p {
+    /* text-decoration: underline; */
+    /* text-transform: capitalize; */
+    /* text-align: justify; */
+    /* text-indent: 2em; */
+    line-height: 1.5;
+    /* letter-spacing: 0.1em; */
+    /* font-weight: bolder; */
+    /* font-style: italic; */
+}
+
+/* here the link for google fonts : https://fonts.google.com/ */
