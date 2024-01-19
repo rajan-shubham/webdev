@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.block {
+    width:30vw;
+    height: 30vw;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+section {
+    background-color: bisque;
+    border: 1px solid #333;
+    padding: 1rem;
+    /* overflow: auto; */
+    display: flow-root;
+}
+
+/* floats -> it is used to float things to the left and right really any element that you want to. and you wrap text around it.
+you can also use floats inside of a container if you want to apply flow-root to the container. 
+so the container contains the full floated element and doesn't shrink based on the text content alone. */
