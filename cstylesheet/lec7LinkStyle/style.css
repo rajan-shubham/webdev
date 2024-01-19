@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    padding: 10%;
+    font-size: 1.5rem;
+    font-family: 'Roboto',sans-serif;
+}
+
+a {
+    /* text-decoration: none;
+    cursor: pointer;
+    color: blue; */
+    color:hsl(207, 44%, 49%);
+}
+
+/* pseudo class -> it represents the current state of the element because a state of an anchor element can change it is either been visited or it hasn't. */
+
+a:visited {
+    color: purple;
+}
+
+a:hover ,a:focus{
+    color: hsl(207, 44%, 49%, 0.8);
+    background-color: gold;
+}
+
+a:active {
+    color:red;
+}
