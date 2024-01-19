@@ -1,0 +1,10 @@
+.blur {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  /* background-color: red; */
+  /* filter:blur(10px); jis chig pe laga rahe ho na filter wo khud blur ho jaati hai */
+  backdrop-filter: blur(10px);
+  top: 130px;
+  left: 339px;
+}
